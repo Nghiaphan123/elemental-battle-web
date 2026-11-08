@@ -87,7 +87,7 @@
       // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
       // expected to change.
 
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+      if (true) { // Elemental Battle: always fill the window (was: phones only)
         // Mobile device style: fill the whole browser client area with the game canvas:
 
         var meta = document.createElement('meta');
